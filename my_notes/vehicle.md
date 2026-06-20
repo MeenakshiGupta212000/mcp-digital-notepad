@@ -1,0 +1,1 @@
+I just bought a brand new red Toyota Camry.

@@ -1,0 +1,12 @@
+[project]
+name = "mcp-digital-notepad"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "chromadb>=1.5.9",
+    "fastmcp[cli]>=3.4.2",
+    "httpx>=0.28.1",
+]
