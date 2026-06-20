@@ -2,7 +2,7 @@ from server import fetch_and_remember_website, search_memory
 import time
 
 print("1. Activating Automated Web Scraper...")
-# e are scraping an actual public webpage detailing Python's official documentation overview
+# we are scraping an actual public webpage detailing Python's official documentation overview
 
 test_url="https://www.python.org/doc/essays/"
 print(f"Scraping {test_url} and saving to memory")

@@ -41,7 +41,7 @@ def save_note(filename: str, content: str) -> str:
     filepath = NOTES_DIR / filename
     filepath.write_text(content, encoding="utf-8")
     
-    # FIX: Changed 'metadata' to 'metadatas'
+
     collection.upsert(
         documents=[content],
         metadatas=[{"filename": filename}],
